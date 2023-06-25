@@ -25,5 +25,5 @@ const root = document.querySelector('#root')
 const data = await fetch('https://example.com/data.json').then((response) =>
 	response.json(),
 )
-render(root, <App data={data} />)
+root.innerHTML = render(<App data={data} />)
 ```
