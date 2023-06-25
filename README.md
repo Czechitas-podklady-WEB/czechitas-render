@@ -9,7 +9,7 @@ npm install @czechitas/render
 ### `vite.config.js`
 
 ```js
-import { czechitasRenderVitePlugin } from '@czechitas/render'
+import { czechitasRenderVitePlugin } from '@czechitas/render/plugin'
 export default defineConfig({
 	plugins: [czechitasRenderVitePlugin()],
 })
