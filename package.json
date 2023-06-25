@@ -3,6 +3,7 @@
 	"version": "0.0.2",
 	"description": "Czechitas render utilities based on React.",
 	"main": "index.js",
+	"types": "./index.d.ts",
 	"type": "module",
 	"repository": "Czechitas-podklady-WEB/czechitas-render",
 	"keywords": [
@@ -14,6 +15,7 @@
 	"author": "Filip Chalupa <chalupa.filip@gmail.com>",
 	"license": "ISC",
 	"dependencies": {
+		"@types/react-dom": "^18.2.6",
 		"@vitejs/plugin-react": "^4.0.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0"
