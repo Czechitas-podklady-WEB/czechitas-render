@@ -1,2 +1,2 @@
-export * from './czechitasRenderVitePlugin'
-export * from './render'
+export * from './czechitasRenderVitePlugin.js'
+export * from './render.js'
