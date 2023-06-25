@@ -1,7 +1,7 @@
 # Czechitas render
 
 ```sh
-npm install czechitas-render
+npm install @czechitas/render
 ```
 
 ## Usage
@@ -9,7 +9,7 @@ npm install czechitas-render
 ### `vite.config.js`
 
 ```js
-import { czechitasRenderVitePlugin } from 'czechitas-render'
+import { czechitasRenderVitePlugin } from '@czechitas/render'
 export default defineConfig({
 	plugins: [czechitasRenderVitePlugin()],
 })
@@ -19,7 +19,7 @@ export default defineConfig({
 
 ```jsx
 import { App } from './components/App'
-import { render } from 'czechitas-render'
+import { render } from '@czechitas/render'
 
 const root = document.querySelector('#root')
 const data = await fetch('https://example.com/data.json').then((response) =>

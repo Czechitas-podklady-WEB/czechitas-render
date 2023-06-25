@@ -1,5 +1,5 @@
 {
-	"name": "czechitas-render",
+	"name": "@czechitas/render",
 	"version": "0.0.0",
 	"description": "Czechitas render utilities based on React.",
 	"main": "index.js",
