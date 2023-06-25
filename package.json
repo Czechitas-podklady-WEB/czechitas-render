@@ -3,7 +3,7 @@
 	"version": "0.0.0",
 	"description": "Czechitas render utilities based on React.",
 	"main": "index.js",
-	"scripts": {},
+	"repository": "Czechitas-podklady-WEB/czechitas-render",
 	"keywords": [
 		"czechitas",
 		"react",
