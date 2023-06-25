@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"declaration": true,
+		"strict": true,
+		"noImplicitAny": true,
+		"outDir": "dist",
+		"moduleResolution": "Node",
+		"target": "ES2020"
+	},
+	"include": ["src/**/*"],
+	"exclude": ["/node_modules/"]
+}
